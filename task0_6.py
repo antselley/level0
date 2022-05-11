@@ -1,4 +1,4 @@
-First Quick Solution
+
 def maximum(*args):
     biggest_number = args[0]
     for arg in args: 
