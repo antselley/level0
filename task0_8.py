@@ -12,7 +12,7 @@ def num_to_duration(input_number):
     else: 
         minutes_wording = "minutes"
 
-    print(hours, hours_wording, ",", minutes, minutes_wording)
+    print(f"{hours} {hours_wording}, {minutes} {minutes_wording}")
 
 num_to_duration(71)
 num_to_duration(133)
